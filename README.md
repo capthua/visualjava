@@ -1,2 +1,2 @@
 # visualspring
-VisualSpring is an All-in-One Spring Application Troubleshooting Tool
+VisualJava is an All-in-One Java Application Troubleshooting Tool
