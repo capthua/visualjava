@@ -5,22 +5,33 @@
 
 	<groupId>io.visualjava</groupId>
 	<artifactId>visualjava-parent</artifactId>
-	<version>${vj.version}</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>visualjava-parent</name>
 	<description>VisualJava is an All-in-One Java Application Troubleshooting Tool</description>
 
 	<modules>
 		<module>visualjava</module>
-		<module>testapp</module>
+		<module>server</module>
 		<module>common</module>
 	</modules>
 
 	<properties>
 		<vj.version>0.0.1-SNAPSHOT</vj.version>
 		<java.version>1.8</java.version>
+		<maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.target>8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring-boot.version>2.7.13</spring-boot.version>
 	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 
 	<dependencyManagement>
 		<dependencies>

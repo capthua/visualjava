@@ -16,11 +16,19 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>io.visualjava</groupId>
+            <artifactId>common</artifactId>
+            <version>${vj.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <optional>true</optional>
         </dependency>
+
     </dependencies>
 
 </project>
